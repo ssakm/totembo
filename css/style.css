@@ -29,6 +29,7 @@ header {
 .header__nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 62px;
 }
 
 .header__nav::after {
@@ -60,3 +61,30 @@ header {
     display: flex;
     gap: 40px;
 }
+
+.banner__wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    grid-auto-rows: 294px ;
+}
+
+.box{
+    background: #E1E1E1;
+    border-radius: 10px;
+    min-width: 526px;
+}
+
+.box:nth-child(1){
+    max-width: 526px;
+}
+
+.box:nth-child(2){
+    grid-row: 2 span;
+    width: 746px;
+}
+
+.box:nth-child(3){
+    max-width: 526px;
+}
+
